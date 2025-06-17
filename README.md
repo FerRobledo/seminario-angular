@@ -24,15 +24,14 @@ La aplicación permite:
 
 ---
 
-## 🔗 Enlaces del proyecto
+## Enlaces del proyecto
 
 - **Repositorio GitHub:** [https://github.com/FerRobledo/seminario-angular](https://github.com/FerRobledo/seminario-angular)
 - **StackBlitz (editable):** [https://stackblitz.com/~/github.com/FerRobledo/seminario-angula](https://stackblitz.com/~/github.com/FerRobledo/seminario-angula)
 
 ---
 
-## 🚀 Tecnologías usadas
+## Tecnologías usadas
 
 - Angular
-- TypeScript
 - Tailwind CSS
