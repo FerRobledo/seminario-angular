@@ -27,7 +27,7 @@ La aplicación permite:
 ## Enlaces del proyecto
 
 - **Repositorio GitHub:** [https://github.com/FerRobledo/seminario-angular](https://github.com/FerRobledo/seminario-angular)
-- **StackBlitz (editable):** [https://stackblitz.com/~/github.com/FerRobledo/seminario-angula](https://stackblitz.com/~/github.com/FerRobledo/seminario-angula)
+- **StackBlitz (editable):** [https://stackblitz.com/~/github.com/FerRobledo/seminario-angular](https://stackblitz.com/~/github.com/FerRobledo/seminario-angular)
 
 ---
 
