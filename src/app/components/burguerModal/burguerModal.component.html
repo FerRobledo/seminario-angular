@@ -1,0 +1,38 @@
+<div class="bg-[#fdfaf2] rounded-xl border flex flex-col items-center justify-center p-6 shadow-lg">
+    <h1 class="text-2xl font-extrabold text-[#4b3c2b] p-5 text-center">Agregar hamburguesa</h1>
+    <form [formGroup]="burguerForm" class="flex flex-col gap-6 w-full max-w-md">
+
+        <mat-form-field class="w-full">
+            <mat-label class="font-medium text-gray-700">Nombre</mat-label>
+            <input matInput formControlName="nombre"
+                class="bg-white rounded-md border border-gray-300 focus:outline-none focus:border-transparent">
+        </mat-form-field>
+
+        <mat-form-field floatLabel="always" class="w-full">
+            <mat-label class="font-medium text-gray-700">Precio</mat-label>
+            <input matInput type="number" formControlName="precio"
+                class="w-full bg-white rounded-md border border-gray-300 focus:outline-none focus:border-transparent"
+                placeholder="0" />
+            <span matTextPrefix>$&nbsp;</span>
+            <span matTextSuffix>.00</span>
+        </mat-form-field>
+
+        <mat-form-field class="w-full">
+            <mat-label class="font-medium text-gray-700">Imagen <span class="text-zinc-700">(url)</span></mat-label>
+            <input matInput formControlName="imagen"
+                class="bg-white rounded-md border border-gray-300 focus:outline-none focus:border-transparent">
+        </mat-form-field>
+
+        <mat-form-field class="w-full">
+            <mat-label class="font-medium text-gray-700">Descripción</mat-label>
+            <input matInput formControlName="descripcion" rows="4"
+                class="bg-white rounded-md border border-gray-300 focus:outline-none focus:border-transparent">
+        </mat-form-field>
+
+        <button mat-raised-button color="primary"
+            (click)="agregarHamburguesa()"
+            class="bg-[#4b3c2b] cursor-pointer text-white font-bold py-3 px-6 rounded-md hover:bg-[#6b573f] focus:outline-none focus:ring-[#7a644f] focus:ring-opacity-50">
+            Agregar
+        </button>
+    </form>
+</div>

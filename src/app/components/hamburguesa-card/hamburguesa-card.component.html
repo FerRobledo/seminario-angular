@@ -1,0 +1,12 @@
+<div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-full max-w-xs">
+  <img [src]="hamburguesa.imagen" [alt]="hamburguesa.nombre" class="h-40 w-full object-cover">
+  
+  <div class="p-4">
+    <h2 class="text-lg font-semibold text-[#4b3c2b] truncate">{{ hamburguesa.nombre }}</h2>
+    <p class="text-sm text-gray-600 mt-1 line-clamp-2">{{ hamburguesa.descripcion }}</p>
+    
+    <div class="mt-4 flex justify-end">
+      <span class="text-md font-bold text-[#4b3c2b]">${{ hamburguesa.precio }}</span>
+    </div>
+  </div>
+</div>

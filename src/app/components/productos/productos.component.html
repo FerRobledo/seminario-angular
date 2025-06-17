@@ -1,0 +1,16 @@
+<h1 class="text-4xl font-bold text-center text-[#4b3c2b] p-5">
+  Hamburguesas
+</h1>
+
+<div class="flex justify-center mb-5">
+  <button 
+    (click)="abrirModal()" 
+    class="bg-[#4b3c2b] text-white px-4 py-2 rounded-xl hover:bg-[#6b573f] transition cursor-pointer hover:scale-95"
+  >
+    Agregar Hamburguesa
+  </button>
+</div>
+
+<div class="flex flex-wrap justify-center gap-5 p-5">
+  <app-hamburguesa-card *ngFor="let hamburguesa of hamburguesas" [hamburguesa]="hamburguesa"></app-hamburguesa-card>
+</div>

@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+.mat-mdc-dialog-container { /* Selector para Angular Material 15+ */
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 12px !important; /* O el valor que necesites */
+  overflow: hidden;
+}
